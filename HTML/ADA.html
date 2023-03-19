@@ -3,6 +3,19 @@
     <head>
         <title>AmericanDreamAcademy</title>
         <style>
+            .dropdown{
+                display: inline-block;
+                position: relative;
+                width: 35%;
+            }
+            .dropdownContent{
+                display: none;
+                width: 100%;
+               box-shadow: 0px 8px 16px 0px rgba(0,0,0,2;
+                position: absolute;
+                overflow: auto;
+               
+            }
             body{
               font-size:medium;
                 font-family: sans-serif;
@@ -35,12 +48,37 @@
     </head> 
 
     <body>
-        <header >
-            <table>
+        <header>
+            <table style="width:100%; background-color: white;">
                 <tr>
-                    <td>coursera</td>
-                    <td> <b>THE AMERICAN  <span style="color: rgb(238, 24, 24);"><br>DREAM </span>ACADEMY</b></td>
-                    <td> Search in 'The American Dream Academy'...</td>
+                    <td style ="color: blue; font-size:170%;padding-left:40px;"><b>coursera</b></td>
+                    <td  style ="color: blue; font-size: 100%;"> <b>THE AMERICAN  <span style="color: rgb(238, 24, 24);">
+                        <br>DREAM </span>ACADEMY</b></td>
+                    <td style=" width: 60%; border-style:groove; border-color: rgb(0, 0, 0); border-radius: 3px;padding-left:15px; border-width:thin;"> 
+                        Search in 'The American Dream Academy'...
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                           <button>
+                                <table>
+                                    <tr>
+                                        <th><img src="C:\Users\HP\Desktop\JACOB okoro\contactslogo.png" width="80px"></th>
+                                        <th>OKORO GOODNESS ADAEZE</th>
+                                    </tr>
+                                </table>
+                            </button>
+                           <div class="dropdownContent">
+                                 <p>Profile</p>
+                                 <p>Updates</p>
+                                 <p>My Purchases</p>
+                                 <p>Settings</p>
+                                <p>Accomplishments</p>
+                                <p>Help Center</p>
+                                <p>Log out</p>
+                           </div>
+                        </div>
+                        
+                    </td>
                 </tr>
             </table>
         </header>
