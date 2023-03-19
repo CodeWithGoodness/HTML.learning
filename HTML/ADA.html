@@ -9,7 +9,7 @@
                 margin-right: 300px;
                 width: 80%;
             }
-            .dropdownContent{
+            .dropdown-content{
                 display: none;
                 width: 100%;
                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -17,23 +17,25 @@
                 overflow: auto;
                
             }
-            .dropdown:hover.dropdownContent{
-                display: block;
-            }
-            .dropdownContent a{
+           
+            .dropdown-content a{
                 display:block;
+                color: brown;
                 padding: 5px;
                 text-decoration: none;
+            } 
+            .dropdown:hover .dropdown-content{
+                display: block;
             }
-            .dropdownContent a:hover{ 
+            .dropdown-content a:hover{ 
                  background-color: gray;
+                color: aqua;
 
             }
             body{
               font-size:medium;
                 font-family: sans-serif;
                 height: 100%;
-                background-color: blueviolet;
             }
              header{
                 height: 5%;
@@ -66,10 +68,10 @@
         <header>
             <table style="width:100%; background-color: white;">
                 <tr>
-                    <td style ="color: blue; font-size:170%;padding-left:40px;background-color: green;"><b>coursera</b></td>
-                    <td  style ="color: blue; font-size: 80%; background-color: red;"> <b>THE AMERICAN  <span style="color: rgb(238, 24, 24);">
+                    <td style ="color: blue; font-size:170%;padding-left:40px;"><b>coursera</b></td>
+                    <td  style ="color: blue; font-size: 80%;"> <b>THE AMERICAN  <span style="color: rgb(238, 24, 24);">
                         <br>DREAM </span>ACADEMY</b></td>
-                    <td style=" background-color: green;width: 30%; border-style:groove; border-color: rgb(0, 0, 0); border-radius: 3px;margin-right:3%; border-width:thin;"> 
+                    <td style="width: 30%; border-style:groove; border-color: rgb(0, 0, 0); border-radius: 3px;margin-right:3%; border-width:thin;"> 
                         Search in 'The American Dream Academy'...
                     </td>
                     <td style = "background-color: red ; width: 20%;">
@@ -82,14 +84,14 @@
                                     </tr>
                                 </table>
                             </button>
-                           <div class="dropdownContent">
-                                 <a href="w3schools.com">Profile</a>
-                                 <a href="w3schools.com">Updates</a>
-                                 <a href="w3schools.com">My Purchases</a>
-                                 <a href="w3schools.com">Settings</a>
-                                <a href="w3schools.com">Accomplishments</a>
-                                <a href="w3schools.com">Help Center</a>
-                                <a href="w3schools.com">Log out</a>
+                           <div class="dropdown-content">
+                                 <a href="mail to: ceciliaokoro2@gmail.com">Profile</a>
+                                 <a href="mail to: ceciliaokoro2@gmail.com">Updates</a>
+                                 <a href="mail to: ceciliaokoro2@gmail.com">My Purchases</a>
+                                 <a href="mail to: ceciliaokoro2@gmail.com">Settings</a>
+                                <a href="mail to : ceciliaokoro2@gmail.com">Accomplishments</a>
+                                <a href="mail to : ceciliaokoro2@gmail.com">Help Center</a>
+                                <a href="mail to : ceciliaokoro2@gmail.com">Log out</a>
                            </div>
                         </div>
                         
