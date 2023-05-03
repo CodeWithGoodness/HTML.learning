@@ -1,5 +1,21 @@
-nav{
+body{
     width: 100%;
+    font-family: 'Segoe UI', Arial,sans-serif;
+}
+
+header{
+    background-color: red;
+    
+}
+
+.header_div1{
+    float:left;
+   
+}
+.header_div2{
+    float: right;
+}
+nav{
     background-color:  #282A35;
     text-align: center;
 
@@ -8,11 +24,41 @@ nav{
 .learn-to-code{
     font-weight: 700;
     font-size: 50px;
-    font-family: 'Segoe UI', Arial,sans-serif;
     color: white;
 
 }
 .with-the{
   color:#FFC0C7;
+  font-weight: 700;
+  font-size: 25px;
 
+}
+  
+.container{
+    padding: 1%;
+    border-radius:25px;
+    color: black;
+    font-size:large;
+    font-weight: 700px;
+    width:30%;
+    text-align: left;
+    margin-left: 34%; 
+    border-width:thin;
+    background: linear-gradient(
+    to right,
+    white 0%,
+    white 80%,
+    #04AA6D 80%,
+    #04AA6D 100%); 
+
+ 
+}
+a:hover{
+    color: #04AA6D;
+   
+}
+.underline{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
 }
