@@ -90,33 +90,40 @@ a.underline:hover{
 }
 aside{
     height: 40%;
+    width: auto;
     background-color: #D9EEE1;
-    margin-top: -19px;
-    padding: 1%;
-}
-aside div.left{
-    flex-direction: column;
-    width: 50%;
-    padding: 5%;
+    margin: 0px;
+    padding: 10px;
     display: flex;
+    flex-direction: row;
+    padding: 5%;
     align-items: center;
 }
-aside div.right{
+aside div div.inner{
+    position: relative;
+    right: 20px;
+    display: block;
     text-align: left;
     border: 1px;
-    background-color:white;
-    width: 50%;
+    width: 10px;
     padding: 10%;
-
+    background-color:#E7E9EB;
+    color: black;
 }
-aside div ul li{
+aside div div.inner xmp{
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 0;
+}
+aside ul li{
     list-style-type: none;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content:space-between
 }
-aside div ul li a{
+aside ul li a{
     text-align: center;
     display: flex;
     flex-direction: column;
