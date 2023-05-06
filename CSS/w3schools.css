@@ -3,6 +3,7 @@ body{
     width:auto;
     height: auto;
     font-family: 'Segoe UI', Arial,sans-serif;
+    overflow-x: hidden;
     
 }
 /**style the nav**/
@@ -77,8 +78,6 @@ section{
     white 80%,
     #04AA6D 80%,
     #04AA6D 100%); 
-
- 
 }
 .underline{
     color: white;
@@ -89,32 +88,16 @@ a.underline:hover{
     color: #04AA6D;
 }
 aside{
-    height: 40%;
+    height: 20%;
     width: auto;
     background-color: #D9EEE1;
     margin: 0px;
     padding: 10px;
     display: flex;
     flex-direction: row;
-    padding: 5%;
+    justify-content: space-around;
+    padding: 0;
     align-items: center;
-}
-aside div div.inner{
-    position: relative;
-    right: 20px;
-    display: block;
-    text-align: left;
-    border: 1px;
-    width: 10px;
-    padding: 10%;
-    background-color:#E7E9EB;
-    color: black;
-}
-aside div div.inner xmp{
-    background-color: white;
-    color: black;
-    position: absolute;
-    bottom: 0;
 }
 aside ul li{
     list-style-type: none;
@@ -122,31 +105,77 @@ aside ul li{
     display: flex;
     flex-direction: column;
     justify-content:space-between
+    
 }
 aside ul li a{
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    width: 130px;
-   border-radius: 15px;
-    padding: 10px;
+
     margin-bottom: 14px;
     margin-left: -60px;
+}
+aside div{
+    position: relative;
+    left: -6%;
+    text-align: left;
+    border: 1px;
+    width: 20%;
+    padding: 10%;
+    background-color:#E7E9EB;
+    color: black;
+}
+aside div xmp{
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    right: 5px;
+    text-align: left;
 }
 .green-border-radius{
     background-color: #04AA6D;
     color: white;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:18px;
+    padding-right: 18px;
+    font-size: 18px;
+    font-weight: 500;
 }
 .yellow-border-radius{
     background-color:#FFF4A3;
     color:black;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:18px;
+    padding-right: 18px;
+    font-size: 18px;
+    font-weight: 500;
 }
 .black-border{
     background-color: #282A35;
     color: white;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:18px;
+    padding-right: 18px;
+    font-size: 17px;
+    font-weight: 500;
 }
 .pink-border{
     background-color: #FFC0C7;
+    border-radius: 25px;
     color: black;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:18px;
+    padding-right: 18px;
 }
