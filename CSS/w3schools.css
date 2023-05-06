@@ -87,19 +87,20 @@ section{
 a.underline:hover{
     color: #04AA6D;
 }
-aside{
-    height: 20%;
-    width: auto;
+.div-aside{
     background-color: #D9EEE1;
-    margin: 0px;
-    padding: 10px;
+}
+ div aside{
+    height: 20%;
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     padding: 0;
     align-items: center;
 }
-aside ul li{
+div aside ul li{
     list-style-type: none;
     align-items: center;
     display: flex;
@@ -107,66 +108,65 @@ aside ul li{
     justify-content:space-between
     
 }
-aside ul li a{
+div aside ul li a{
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-
     margin-bottom: 14px;
-    margin-left: -60px;
+
 }
-aside div{
+div aside div{
     position: relative;
-    left: -6%;
+    left: 6%;
     text-align: left;
     border: 1px;
     width: 20%;
     padding: 10%;
     background-color:#E7E9EB;
+    line-height: normal;
     color: black;
+    margin:10%;
+    border-radius:5px;
 }
-aside div xmp{
+div aside div xmp{
     background-color: white;
     color: black;
     position: absolute;
-    bottom: 0;
+    border-left-color: #04AA6D;
+    bottom: 25%;
     left: 5px;
     right: 5px;
-    text-align: left;
+    line-height: 25px;
+    margin:auto;
+    width:90%;
 }
 .green-border-radius{
     background-color: #04AA6D;
     color: white;
     border-radius: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left:18px;
-    padding-right: 18px;
+    padding: 10px;
     font-size: 18px;
     font-weight: 500;
+    text-align: center;
 }
 .yellow-border-radius{
     background-color:#FFF4A3;
     color:black;
     border-radius: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left:18px;
-    padding-right: 18px;
+    padding: 10px;
     font-size: 18px;
     font-weight: 500;
+    text-align: center;
 }
 .black-border{
     background-color: #282A35;
     color: white;
     border-radius: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left:18px;
-    padding-right: 18px;
+    padding:10px;
     font-size: 17px;
     font-weight: 500;
+    text-align: center;
 }
 .pink-border{
     background-color: #FFC0C7;
@@ -174,8 +174,68 @@ aside div xmp{
     color: black;
     font-size: 18px;
     font-weight: 500;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left:18px;
-    padding-right: 18px;
+    padding:10px;
+    text-align: center;
+}
+.div-article{
+    background-color:#FFF4A3;
+}
+div article{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+div article ul{
+    width: 40%;
+    display: block;
+    justify-content: left;
+    list-style-type: none;
+    text-align: center;
+}
+div article ul li{
+    margin: 5%;
+    width: 30%;
+}
+div article div{
+    background-color:#E7E9EB;
+    width:20%;
+    text-align: left;
+    border: 1px;
+    margin:10%;
+    border-radius:5px;
+
+}
+div article div xmp{
+    background-color: white;
+    margin: 7%;
+    padding: 20%;
+}
+div article div{
+    position: relative;
+    left: 6%;
+    text-align: left;
+    border: 1px;
+    width: 20%;
+    padding: 10%;
+    background-color:#E7E9EB;
+    color: black;
+    margin:10%;
+    border-radius:5px;
+    
+}
+div article div xmp{
+    overflow-wrap: normal;
+    background-color: white;
+    color: black;
+    position: absolute;
+    border-left-color: #04AA6D;
+    bottom: 15%;
+    left: 15px;
+    right: 15px;
+    line-height: 8px;
+    margin:auto;
+    width:90%;
 }
