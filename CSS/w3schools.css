@@ -5,6 +5,13 @@ body{
     font-family: 'Segoe UI', Arial,sans-serif;
 }
 /**Style for links with border radius**/
+.border-radius{
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
 .light-green-border{
     background-color: #D9EEE1;
     color:black;
@@ -109,10 +116,23 @@ section{
 a.underline:hover{
     color: #04AA6D;
 }
-/**set background color for the div containing the aside**/
-.div-aside{
+/**set background color for the different sections(divs)**/
+.div-html{
     background-color: #D9EEE1;
 }
+.div-css{
+    background-color:#FFF4A3;
+}
+.div-javascript{
+    background-color: #282A35;
+}
+.div-python{
+   background-color: #F3ECEA;
+}
+.div-sql{
+   background-color: #96D4D4;
+}
+
 /**width for the elements in the aside and center the elements. flex direction to display them horizontally**/
  .div-outer{
     width: 80%;
@@ -123,6 +143,7 @@ a.underline:hover{
     padding: 0;
     align-items: center;
 }
+/**style the vertical list in the div**/
 .div-ul-li{
     text-align: center;
     list-style-type: none;
@@ -132,13 +153,14 @@ a.underline:hover{
     justify-content:space-between
     
 }
-div aside ul li a{
+/**style the links in the div**/
+.div-ul-li-a{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
     margin-bottom: 14px;
-
 }
+/**inner div containing code example**/
 .div-inner{
     position: relative;
     left: 6%;
@@ -152,35 +174,8 @@ div aside ul li a{
     margin:10%;
     border-radius:5px;
 }
-div aside div xmp{
-    background-color: white;
-    color: black;
-    position: absolute;
-    border-left-color: #04AA6D;
-    bottom: 25%;
-    left: 5px;
-    right: 5px;
-    line-height: 25px;
-    margin:auto;
-    width:90%;
-}
-.border-radius{
-    border-radius: 25px;
-    padding: 10px;
-    font-size: 18px;
-    font-weight: 500;
-    text-align: center;
-}
-.div-article{
-    background-color:#FFF4A3;
-}
-div article ul li a{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    margin-bottom: 14px;
-}
-div article div xmp{
+/**style the code preserved inside the xmp tag**/
+.div-xmp{
     background-color: white;
     color: black;
     position: absolute;
@@ -190,7 +185,4 @@ div article div xmp{
     line-height: 25px;
     margin:auto;
     width:90%;
-}
-.div-header{
-    background-color: #282A35;
 }
