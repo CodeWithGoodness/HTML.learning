@@ -11,6 +11,7 @@ body{
     font-size: 18px;
     font-weight: 500;
     text-align: center;
+
 }
 .light-green-border{
     background-color: #D9EEE1;
@@ -42,12 +43,12 @@ body{
 }
 .headings{
     font-weight: 700;
-    font-size: 70px;
+    font-size: 80px;
     color: black;
 }
 .heading2{
     width:max-content;
-    margin-top:-49px; 
+    margin-top:-2px; 
     font-weight: 140;
     font-size: 19px;
 }
@@ -203,6 +204,7 @@ a.underline:hover{
     flex-direction: column;
     justify-content:space-between;
     margin-bottom: 14px;
+    width: 50%;
 }
 /**inner div containing code example**/
 .div-inner{
@@ -212,9 +214,12 @@ a.underline:hover{
     color: black;
     margin:10%;
     border-radius:5px;
-    width: 400px;
+    width: 500px;
     padding: 30px;
     box-shadow: 2px 4px 6px #aaa;
+}
+.div-css>.div-outer>ul{
+    height: 70%;
 }
 .div-inner>button{
     width: 150px;
