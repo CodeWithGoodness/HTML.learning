@@ -1,6 +1,6 @@
 body{
     margin:0;
-    width:auto;
+    width:100%;
     height: auto;
     font-family: 'Segoe UI', Arial,sans-serif;
 }
@@ -51,31 +51,57 @@ body{
     font-weight: 140;
     font-size: 19px;
 }
-
-
-/**style the nav**/
-nav ul{
-    width: auto;
-    margin: 15px;
+.nav{
+    width: 100%;
+    height: 70px;
     display: flex;
-   justify-content:space-around;
-   list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/**styling for links on the nav**/
-nav ul li a{
-    font-weight: 500;
-    font-size:15px;
-    font-family: Verdana, sans-serif;
+.nav-left{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 45%;
+    height: 100%;
+}
+.nav-left>li{
+    flex-basis: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-left>li:hover{
+    background-color: #04AA6D;
+}
+.nav-left>li:hover>a{
+    color: white;
+}
+.fa-solid{
+    padding: 0 5px;
+}
+.nav-left>li>a{
     text-decoration: none;
     color: black;
-    padding:33%;  
-    padding-bottom:22%;
+    font-weight: 700;
+    font-size: 16px;
 }
-/**hoverable links on the nav**/
-nav ul li a.hover:hover{
+.hover:hover{
     background-color: #04AA6D;
-    color: white;
+}
+.nav-right{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 45%;
+    height: 100%;
+}
+.nav-right>li>a{
+    text-decoration: none;
 }
 
 section{
@@ -90,23 +116,40 @@ section{
   font-size: 25px;
   margin-top: -35px;
 }
-  
-.container{
-    padding: 1%;
-    border-radius:25px;
-    color: black;
-    font-weight: 500;
-    font-weight: 700px;
-    width:30%;
-    text-align: left;
-    margin-left: 34%; 
-    border-width:thin;
-    background: linear-gradient(
-    to right,
-    white 0%,
-    white 80%,
-    #04AA6D 80%,
-    #04AA6D 100%); 
+
+.heroSearch{
+    width: 580px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroSearch>input[type=text]{
+    flex-basis: 70%;
+    height: 40px;
+    padding: 3px 25px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+.submit{
+    flex-basis: 12%;
+    height: 40px;
+    background-color: #04AA6D;
+    color: white;
+    padding: 3px 25px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+
 }
 .underline{
     color: white;
@@ -135,7 +178,8 @@ a.underline:hover{
 
 /**width for the elements in the aside and center the elements. flex direction to display them horizontally**/
  .div-outer{
-    width: 80%;
+    width: 90%;
+    height: 700px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -162,26 +206,29 @@ a.underline:hover{
 }
 /**inner div containing code example**/
 .div-inner{
-    position: relative;
-    left: 6%;
-    text-align: left;
     border: 1px;
-    width: 20%;
-    padding: 10%;
     background-color:#E7E9EB;
     line-height: normal;
     color: black;
     margin:10%;
     border-radius:5px;
+    width: 400px;
+    padding: 30px;
+    box-shadow: 2px 4px 6px #aaa;
+}
+.div-inner>button{
+    width: 150px;
+    outline: none;
+    border: none;
+    margin: 30px 0 10px;
+}
+pre{
+    border-left: 4px solid #04AA6D;
 }
 /**style the code preserved inside the xmp tag**/
 .div-xmp{
     background-color: white;
     color: black;
-    position: absolute;
-    bottom: 25%;
-    left: 5px;
-    right: 5px;
     line-height: 25px;
     margin:auto;
     width:90%;

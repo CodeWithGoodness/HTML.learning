@@ -2,37 +2,43 @@
 <html>
     <head>
         <title>W3Schools Online Web Tutorials</title>
-        <link href="C:\Users\HP\American_dream_Academy\CSS\w3schools.css" rel="stylesheet">
+        <link href="w3schools.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e26e4a68b3.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <nav>
-            <ul>
-                <li><a href="facebook.com" class="hover">Tutorials</a></li>
-                <li><a href="w3schools.com" class="hover">References</a></li>
-                <li><a href="openai.com" class="hover">Exercises</a></li>
-                <li><a href="w3schools.com" class="hover">Bootcamp</a></li>
-                <li><a href="facebook.com" class="hover">Videos</a></li>
-                <li><a href="facebook.com" class="purple-border border-radius" style="position:relative; left:120px;">Upgrade</a></li>
-                <li><a href="facebook.com" class="pink-border border-radius" style="position:relative; left:110px;">Get Certified</a></li>
-                <li><a href="facebook.com" class="yellow-border-radius border-radius" style="position:relative; left:100px">Create Website</a></li>
-                <li><a href="facebook.com" class="green-border-radius border-radius" style="position:relative; left:68px;">Sign Up</a></li>
-                <li><a href="facebook.com" class="hover light-green-border border-radius"; style="position:relative; right: 0px;">Log in</a></li>
-            </ul>
+            <div class="nav">
+                <ul class="nav-left">
+                    <img src= "C:\Users\HP\Downloads\w3-schools.jpeg" alt="icon" height="55px" width="60px">
+                    <li><a href="">Tutorials<i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="">References<i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="">Exercises<i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="">Bootcamp</a></li>
+                    <li><a href="">Videos</a></li>
+                </ul>
+                <ul class="nav-right">
+                    <li><a href="" class="purple-border border-radius">Upgrade</a></li>
+                    <li><a href="" class="pink-border border-radius">Get Certified</a></li>
+                    <li><a href="" class="yellow-border-radius border-radius">Create Website</a></li>
+                    <li><a href="" class="green-border-radius border-radius">Sign Up</a></li>
+                    <li><a href="" class="hover light-green-border border-radius">Log in</a></li>
+                </ul>
+            </div>
                
         </nav>
-        <section>
+        <section class="hero">
             <h1 class="headings" style="color: white;">Learn to Code</h1>
             <p class="with-the">With the world's largest web developer site.</p>
-
-            <p class = "container">Search our tutorials, e.g. HTML</p>
-
-           <a class ="underline"><u>Not Sure Where To Begin?</u></a>
-
+            <form action="" class="heroSearch">
+                <input type="text" id="search" placeholder="Search our tutorials, e.g. HTML">
+                <div class="submit"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </form>
+            <a class ="underline"><u>Not Sure Where To Begin?</u></a>        
         </section>
         <div class="div-html">
             <aside class="div-outer">
                 <ul>
-                    <li class="div-ul-li"><h1 style="margin-top:1px;" class="headings">HTML</h1></li> 
+                    <li class="div-ul-li"><h1 class="headings">HTML</h1></li> 
                     <li class="div-ul-li"><p class ="heading2"><b>The language for building web pages</b></p></li>
                     <li class="div-ul-li"><a class="green-border-radius border-radius div-ul-li-a">Learn HTML</a></li>
                     <li class="div-ul-li"><a class="yellow-border-radius border-radius div-ul-li-a">Video Tutorial</a></li>
@@ -40,21 +46,20 @@
                     <li class="div-ul-li"><a class="pink-border border-radius div-ul-li-a">Get Certified</a></li>
                 </ul>
                 <div class="div-inner">
-                    <h3 style="font-weight:500; font-size:25px; position: relative;left:-100px; top:-140px;">HTML Example: </h3>
-                    <xmp class="div-xmp">
-                        <!DOCTYPE html>
-                        <html>
-                        <title>HTML Tutorial</title>
-                        <body>
-                        <h1>This is a heading</h1>
-                        <p>This is a paragraph.</p>
-                        </body>
-                        </html>
-                    </xmp>
-                    <p class="green-border-radius border-radius" style="position: relative; bottom:-120px; left: -106px;">Try it yourself</p>
+                    <h3 >HTML Example: </h3>
+                    <pre class="div-xmp">
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;title&gt;HTML Tutorial&lt;/title&gt;
+  &lt;body&gt;
+  &lt;h1&lt;This is a heading&lt;/h1&gt;
+  &lt;p&lt;This is a paragraph.&lt;/p&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;
+                    </pre>
+                    <button class="green-border-radius border-radius">Try it yourself</button>
                 </div>
-            </aside>
-            
+            </aside>           
         </div>
         <div class="div-css">
             <article class="div-outer">
@@ -66,20 +71,20 @@
                     <li class="div-ul-li"><a class="pink-border border-radius div-ul-li-a">Get Certified</a></li>
                 </ul>
                 <div class="div-inner">
-                    <h3 style="font-weight:500; font-size:25px; position: relative;left:-100px; top:-140px;">CSS Example:</h3>
-                    <xmp class="div-xmp">
-                        body {
-                            background-color: lightblue;
-                            }
-                            h1 {
-                            color: white;
-                            text-align: center;
-                            }
-                            p {
-                            font-family: verdana;
-                            }
-                    </xmp>
-                    <p class="green-border-radius border-radius" style="position: relative; bottom:-120px; left: -106px;">Try it yourself</p>
+                    <h3>CSS Example:</h3>
+                    <pre class="div-xmp">
+body {
+    background-color: lightblue;
+    }
+    h1 {
+    color: white;
+    text-align: center;
+    }
+    p {
+    font-family: verdana;
+    }
+                        </pre>
+                    <button class="green-border-radius border-radius">Try it yourself</button>
                 </div>
             </article>
         </div>
@@ -93,18 +98,18 @@
                     <li class="div-ul-li"><a class="div-ul-li-a pink-border border-radius">Get Certified</a></li>
                 </ul>
                 <div class="div-inner">
-                    <h3 style="font-weight:500; font-size:25px; position: relative;left:-100px; top:-140px;">Javascript Example:</h3>
-                    <xmp class="div-xmp">
-                    <button onclick="myFunction()">Click Me!</button>
-                    <script>
-                    function myFunction() {
-                      let x = document.getElementById("demo");
-                      x.style.fontSize = "25px";
-                      x.style.color = "red";
-                    }
-                    </script>
-                    </xmp>
-                    <p class="green-border-radius border-radius" style="position: relative; bottom:-120px; left: -106px;">Try it yourself</p>
+                    <h3>Javascript Example:</h3>
+                    <pre class="div-xmp">
+&lt;button onclick="myFunction()"&gt; Click Me!&lt;/button&gt;
+&lt;script&gt;
+function myFunction() {
+    let x = document.getElementById("demo");
+    x.style.fontSize = "25px";
+    x.style.color = "red";
+}
+&lt;/script&gt;
+                    </pre>
+                    <button class="green-border-radius border-radius">Try it yourself</button>
                 </div>
             </header>
         </div> 
@@ -118,12 +123,12 @@
                     <li class="div-ul-li"><a class="div-ul-li-a pink-border border-radius">Get Certified</a></li>
                 </ul>
                 <div class="div-inner">
-                    <h3 style="font-weight:500; font-size:25px; position: relative;left:-100px; top:-140px;">Python Example:</h3>
-                    <xmp class="div-xmp">
-                        if 5 > 2:
-                            print("Five is greater than two!")
-                    </xmp>
-                    <p class="green-border-radius border-radius" style="position: relative; bottom:-120px; left: -106px;">Try it yourself</p>
+                    <h3>Python Example:</h3>
+                    <pre class="div-xmp">
+if 5 > 2:
+    print("Five is greater than two!")
+                    </pre>
+                    <button class="green-border-radius border-radius">Try it yourself</button>
                 </div>
             </header>
         </div> 
@@ -137,17 +142,14 @@
                     <li class="div-ul-li"><a class="div-ul-li-a pink-border border-radius">Get Certified</a></li>
                 </ul>
                 <div class="div-inner">
-                    <h3 style="font-weight:500; font-size:25px; position: relative;left:-100px; top:-140px;">SQL Example:</h3>
-                    <xmp class="div-xmp">
-                        SELECT * FROM Customers
-                        WHERE Country='Mexico';
-                    </xmp>
-                    <p class="green-border-radius border-radius" style="position: relative; bottom:-120px; left: -106px;">Try it yourself</p>
+                    <h3>SQL Example:</h3>
+                    <pre class="div-xmp">
+SELECT * FROM Customers
+WHERE Country='Mexico';
+                    </pre>
+                    <button class="green-border-radius border-radius">Try it yourself</button>
                 </div>
             </header>
-        </div> 
-        <div class="div-javascript">
-
         </div> 
     </body>
 </html>
