@@ -1,6 +1,6 @@
 body{
     margin:0;
-    width:100%;
+    width:auto;
     height: auto;
     font-family: 'Segoe UI', Arial,sans-serif;
 }
@@ -13,44 +13,53 @@ body{
     text-align: center;
 
 }
-.light-green-border{
+.light-green{
     background-color: #D9EEE1;
     color:black;
 }
-.purple-border{
+.purple{
     color:white;
     background-color:#9763f6;
 }
-.green-border-radius{
+.green{
     background-color: #04AA6D;
     color: white;
 }
-.yellow-border-radius{
+.yellow{
     background-color:#FFF4A3;
     color:black;
 }
-.black-border{
+.black{
     background-color: #282A35;
     color: white;
 }
-.pink-border{
+.pink{
     background-color: #FFC0C7;
     color: black;
 }
-.white-border{
+.white{
     background-color: white;
     color: black;
 }
+.light-pink{
+   background-color: #F3ECEA;
+   color:black;
+}
+.blue{
+   background-color: #96D4D4;
+   color:black;
+}
+
 .headings{
     font-weight: 700;
-    font-size: 80px;
+    font-size: 90px;
     color: black;
+    line-height: 10px;
 }
 .heading2{
-    width:max-content;
-    margin-top:-2px; 
-    font-weight: 140;
-    font-size: 19px;
+    width: max-content;
+    font-weight: 130;
+    font-size: 20px;
 }
 .nav{
     width: 100%;
@@ -59,7 +68,6 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-
 .nav-left{
     list-style-type: none;
     display: flex;
@@ -160,31 +168,16 @@ section{
 a.underline:hover{
     color: #04AA6D;
 }
-/**set background color for the different sections(divs)**/
-.div-html{
-    background-color: #D9EEE1;
-}
-.div-css{
-    background-color:#FFF4A3;
-}
-.div-javascript{
-    background-color: #282A35;
-}
-.div-python{
-   background-color: #F3ECEA;
-}
-.div-sql{
-   background-color: #96D4D4;
-}
+
 
 /**width for the elements in the aside and center the elements. flex direction to display them horizontally**/
  .div-outer{
-    width: 90%;
+    width: 80%;
     height: 700px;
     margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0;
     align-items: center;
 }
@@ -195,16 +188,16 @@ a.underline:hover{
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content:space-between
-    
+    justify-content:space-between;
 }
 /**style the links in the div**/
 .div-ul-li-a{
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
-    margin-bottom: 14px;
+    justify-content:space-around;
     width: 50%;
+    align-items: center;
+    margin: 8px;
 }
 /**inner div containing code example**/
 .div-inner{
@@ -237,4 +230,28 @@ pre{
     line-height: 25px;
     margin:auto;
     width:90%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 70px 0 0 0;
+}
+div.container>div{
+    width:40%;
+    margin:30px 15px;
+    line-height: 40px;
+    border-radius:7px;
+}
+div.container>div>ul>li{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+div.container>div>ul>li>a{
+    padding: 1px 40px;
+    margin-bottom: 25px;
+    border: 1px solid red;
 }
