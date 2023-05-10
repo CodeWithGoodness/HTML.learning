@@ -338,8 +338,9 @@ div.general>div.video{
     justify-content: center;
     align-items: center;
     flex-basis: 80%;
-    line-height: 60%;
+    line-height: 70%;
     padding:100px;
+    border: 1px solid red;
 }
 div.general>div.video>h1{
     color: white;
@@ -412,11 +413,20 @@ div.general>div.video>div.vid-div>video{
     margin: auto;
     display: flex;
     justify-content: center;
-}div.general>div.video>div.vid-div>div.tryGreen{
+}
+div.general>div.video>div.tryGreen{
     width: 300px;
-    margin: 20px 0;
-    padding: 20px;
+    margin: 20px 0 0 -557px;
+    padding: 15px;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: 600;
+}
+div.general>div.video>div.tryYellow{
+    width: 350px;
+    margin: 20px 0 0 -510px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 17px;
     font-weight: 600;
 }
