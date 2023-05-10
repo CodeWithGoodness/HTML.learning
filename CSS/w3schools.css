@@ -354,10 +354,9 @@ div.general>div.video>p{
 }
 div.general>div.video>div.vid-div{
     background-color: #f1f1f1;
-    height: 350px;
+    height: 370px;
     width: 900px;
     align-items: center;
-    justify-content: center;
     border-radius: 5px;
 }
 div.general>div.video>div.vid-div>div.top{
@@ -383,7 +382,6 @@ div.general>div.video>div.vid-div>div.top>div.first-line>div.colors>div.dot{
 }
 div.general>div.video>div.vid-div>div.top>div.first-line>div.trySearch{
     display: flex;
-    border: 1px red;
     justify-content:left;
     border-radius:1px;
     background-color: white;
@@ -392,4 +390,33 @@ div.general>div.video>div.vid-div>div.top>div.first-line>div.trySearch{
     font-weight: 600;
     width: 500px;
     font-size: 14px;
+}
+div.general>div.video>div.vid-div>div.top>div.btns{
+    display: flex;
+    align-items: center;
+    margin-bottom: -12px;
+}
+div.general>div.video>div.vid-div>div.top>div.btns>p{
+    padding: 15px;
+    margin-bottom: 0px;
+}
+div.general>div.video>div.vid-div>div.top>div.btns>p.noHov{
+    background-color: #c4daf0;
+}
+div.general>div.video>div.vid-div>div.top>div.btns>p.hov:hover{
+    background-color: #c4daf0;
+}
+div.general>div.video>div.vid-div>video{
+    height: 270px;
+    width: 880px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}div.general>div.video>div.vid-div>div.tryGreen{
+    width: 300px;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
 }
