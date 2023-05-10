@@ -13,6 +13,12 @@ body{
     text-align: center;
 
 }
+.red{
+    background-color:#ED594A;
+}
+.dim-yellow{
+    background-color: #FDD800;
+}
 .light-green{
     background-color: #D9EEE1;
     color:black;
@@ -231,133 +237,159 @@ pre{
     margin:auto;
     width:90%;
 }
-.container{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-basis: 100%;
-    justify-content: space-around;
-    padding: 70px 0 0 0;
-}
+/**general container for the flex grids**/
 div.general{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 1px solid white;
     align-items: center;
 }
-div.container>div.general>div.big{
+/**first 6 set of grid**/
+div.general>div.big{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width:40%;
     line-height: 40px;
     border-radius:7px;
-    border: 1px solid red;
     margin:30px
 }
-div.container>div.general>div.big>ul>li{
+div.general>div.big>ul{
+    margin: auto;
     list-style-type: none;
-    text-align: center;
+}
+div.general>div.big>ul>li{
     display: flex;
     justify-content: space-around;
 }
-div.container>div.general>div.big>ul>li>a{
+div.general>div.big>ul>li>a{
     padding: 1px 40px;
     margin-bottom: 25px;
 }
-div.container>div.general>div.short{
+/**same width as the big div but different height**/
+div.general>div.short{
     width:40%;
     line-height: 140px;
     border-radius:5px;
     text-align: center;
     margin:30px;
-    border: 1px solid white;
 }
-div.container>div.general>div.shorter>a{
+div.general>div.short>a{
     padding: 1px 40px;
     margin-bottom: 25px;
     font-size: 25px;
     font-weight: 500px;
 }
-div.container>div.general>div.shorter{
+
+div.general>div.small{
+    display: flex;
+    flex-basis: 90%;
+    line-height: 60px;
+    border-radius:5px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+div.general>div.small>div{
+    display: flex;
+    flex-wrap: wrap;
+    width:96%;
+    line-height: 120px;
+    align-items: center;
+    justify-content: center;
+
+}
+div.general>div.small>div>div{
+    width:282px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 110px;
+    text-align: center;
+    border-radius: 5px;
+}
+div.general>div.small>div>div>a{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500px;
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+}
+/**the last 4 set of flex**/
+div.general>div.shorter>a{
+    padding: 1px 40px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 500px;
+}
+div.general>div.shorter{
     width:40%;
     line-height: 120px;
     border-radius:5px;
     text-align: center;
     margin:30px;
-    border: 1px solid white;
 }
-div.container>div.general>div.short>a{
-    padding: 1px 40px;
-    margin-bottom: 25px;
-    font-size: 25px;
-    font-weight: 500px;
-}
-
-div.container>div.general>div.small{
+div.general>div.video{
     display: flex;
-    flex-direction: row;
-    flex-basis: 90%;
-    line-height: 60px;
-    border-radius:5px;
-    text-align: center;
-    border: 1px solid  white;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
-    
+    flex-basis: 80%;
+    line-height: 60%;
+    padding:100px;
 }
-div.container>div.general>div.small>div.left{
-    display: flex;
-    width:100%;
-    line-height: 120px;
-    border-radius:5px;
-    text-align: center;
-    border: 1px solid red;
-    flex-wrap: wrap;
+div.general>div.video>h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+    padding:2px 10px 5px 30px;
+}
+div.general>div.video>p{
+    font-size: 19px;
+    font-weight: 500;
+    padding:2px 10px 40px 35px;
+}
+div.general>div.video>div.vid-div{
+    background-color: #f1f1f1;
+    height: 350px;
+    width: 900px;
     align-items: center;
     justify-content: center;
-
+    border-radius: 5px;
 }
-div.container>div.general>div.small>div.right{
-    flex-wrap: wrap;
-    display: flex;
-    width:100%;
-    line-height: 120px;
-    border-radius:5px;
-    text-align: center;
-    border: 1px solid white;
+div.general>div.video>div.vid-div>div.top{
+    padding: 12px;
+    color:black;
 }
-div.container>div.general>div.small>div.left>div{
-    width:280px;
-    margin: 20px 20px 20px 32px;
+div.general>div.video>div.vid-div>div.top>div.first-line{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    line-height: 90px;
-    text-align: center;
+    margin: 5px 15px;
+    width:85%;
 }
-div.container>div.general>div.small>div.left>div>a{
+div.general>div.video>div.vid-div>div.top>div.first-line>div.colors{
     display: flex;
-    align-items: center;
-    font-size: 25px;
-    font-weight: 500px;
-    margin-bottom: 25px;
-    text-align: center;
-    justify-content: center;
+    justify-content:left;
 }
-div.container>div.general>div.small>div.right>div{
-    width:280px;
-    margin: 20px 20px 20px 32px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    line-height: 90px;
-    text-align: center;
+div.general>div.video>div.vid-div>div.top>div.first-line>div.colors>div.dot{
+    height:15px;
+    width: 15px;
+    border-radius: 50%;
+    margin:4px;
 }
-div.container>div.general>div.small>div.right>div>a{
+div.general>div.video>div.vid-div>div.top>div.first-line>div.trySearch{
     display: flex;
-    align-items: center;
-    font-size: 25px;
-    font-weight: 500px;
-    margin-bottom: 25px;
-    text-align: center;
-    justify-content: center;
+    border: 1px red;
+    justify-content:left;
+    border-radius:1px;
+    background-color: white;
+    padding: 4px;
+    text-align: left;
+    font-weight: 600;
+    width: 500px;
+    font-size: 14px;
 }
