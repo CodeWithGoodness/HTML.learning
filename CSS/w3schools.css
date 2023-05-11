@@ -527,9 +527,8 @@ div.lynx>a{
     padding: 13px 65px;
     margin: 40px;
 }
-div.Quiz{
-}
-div.Quiz>div.YG{g
+
+div.Quiz>div.YG{
     display: flex;
     margin: 20px;
     width: 90%;
@@ -539,12 +538,18 @@ div.Quiz>div.YG>div{
     border-radius: 6px;
     width: 1000px;
     line-height: 180px;
-    border: 1px solid blue;
     margin:10px 50px;
 }
 div.Quiz>div.YG>div>a{
     text-decoration: none;
-    text-align: center;
     display: flex;
     justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+div.Quiz>div.YG>div>a.Y{
+    color:black;
+}
+div.Quiz>div.YG>div>a.G{
+    color:white;
 }
