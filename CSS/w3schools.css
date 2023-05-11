@@ -351,37 +351,35 @@ div.general>div.video>p{
     font-weight: 500;
     padding:2px 10px 40px 35px;
 }
-div.general>div.video>div.vid-div{
-    background-color: #f1f1f1;
-}
-div.general>div.video>div.vid-div{
+.vid-div{
+    background-color: #E7E9EB;
     height: 370px;
     width: 900px;
     align-items: center;
     border-radius: 5px;
 }
-div.general>div.video>div.vid-div>div.top{
+.top{
     padding: 12px;
     color:black;
 }
-div.general>div.video>div.vid-div>div.top>div.first-line{
+.first-line{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 5px 15px;
     width:85%;
 }
-div.general>div.video>div.vid-div>div.top>div.first-line>div.colors{
+.colors{
     display: flex;
     justify-content:left;
 }
-div.general>div.video>div.vid-div>div.top>div.first-line>div.colors>div.dot{
+.dot{
     height:15px;
     width: 15px;
     border-radius: 50%;
     margin:4px;
 }
-div.general>div.video>div.vid-div>div.top>div.first-line>div.trySearch{
+.trySearch{
     display: flex;
     justify-content:left;
     border-radius:1px;
@@ -552,4 +550,93 @@ div.Quiz>div.YG>div>a.Y{
 }
 div.Quiz>div.YG>div>a.G{
     color:white;
+}
+div.Templates>a{
+border-radius: 20px;
+padding: 18px 280px;
+background-color: black;
+color: white;
+font-size:18px;
+font-weight: 600;
+margin: 30px;
+}
+div.kickstart{
+    padding: 40px 80px;
+}
+div.kickstart>p{
+color: #FFC0C7;
+font-size: 52px;
+font-weight: 600;
+padding:5px 0;
+}
+div.kickstart>a{
+    padding: 20px 60px;
+    background-color: #04AA6D;
+    color: white;
+    border-radius:40px;
+    font-size:20px;
+    font-weight: 600;
+}
+footer{
+    padding:50px 30px;
+}
+footer>div.footer{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+footer>div.footer>div.LF{
+
+    display: flex;
+    justify-content: left;
+    width:60%;
+    margin-right: 300px;
+}
+footer>div.footer>div.RF{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    width: 18%;
+    margin-right: 5px;
+}
+footer>div.footer>div.RF>a:hover{
+    color: #04AA6D;
+}
+footer>div.footer>div>a{
+    text-decoration: none;
+    color: black;
+    margin:10px;
+    font-size: 15px;
+    font-weight:500;
+}
+footer>div.footer>div.LF>a{
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+footer>div.footer>div.RF>a{
+    color: white;
+    padding: 10px 0px;
+}
+footer>p{
+    text-align: center;
+}
+footer>div.icons{
+    display: flex;
+    justify-content: right;
+}
+footer>div.icons>a>i{
+    color:white;
+    padding: 23px;
+    font-size: 20px;
+}
+footer>div.icons>a>i:hover{
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    border-radius: 3px;
+}
+div.section>h3{
+    font-size: 50px;
+    font-weight: 700;
 }
