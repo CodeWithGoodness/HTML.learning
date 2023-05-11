@@ -335,16 +335,14 @@ div.general>div.shorter{
 div.general>div.video{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     flex-basis: 80%;
-    line-height: 70%;
+    line-height: 100%;
     padding:100px;
-    border: 1px solid red;
 }
 div.general>div.video>h1{
     color: white;
-    font-size: 55px;
+    font-size: 57px;
     font-weight: 700;
     padding:2px 10px 5px 30px;
 }
@@ -355,6 +353,8 @@ div.general>div.video>p{
 }
 div.general>div.video>div.vid-div{
     background-color: #f1f1f1;
+}
+div.general>div.video>div.vid-div{
     height: 370px;
     width: 900px;
     align-items: center;
@@ -397,15 +397,9 @@ div.general>div.video>div.vid-div>div.top>div.btns{
     align-items: center;
     margin-bottom: -12px;
 }
-div.general>div.video>div.vid-div>div.top>div.btns>p{
-    padding: 15px;
+div.general>div.video>div.vid-div>div.top>div.btns>button{
+    padding: 10px;
     margin-bottom: 0px;
-}
-div.general>div.video>div.vid-div>div.top>div.btns>p.noHov{
-    background-color: #c4daf0;
-}
-div.general>div.video>div.vid-div>div.top>div.btns>p.hov:hover{
-    background-color: #c4daf0;
 }
 div.general>div.video>div.vid-div>video{
     height: 270px;
@@ -424,9 +418,65 @@ div.general>div.video>div.tryGreen{
 }
 div.general>div.video>div.tryYellow{
     width: 350px;
-    margin: 20px 0 0 -510px;
+    margin: 20px 0 100px -510px;
     padding: 15px;
     border-radius: 5px;
     font-size: 17px;
     font-weight: 600;
+}
+div.general>div.video>h1.spaces{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+div.general>div.video>p.paragraph{
+    font-size: 22px;
+    font-weight: 620;
+    text-align: center;
+    margin: auto ;
+    padding-bottom: 30px;
+}
+div.general>div.video>p.paragraph >a{   
+ color: #FFC0C7;   
+}
+div.general>div.video>p.paragraph >a:hover{   
+    color:#04AA6D   
+   }
+div.general>div.video>video.adrienne{
+width:920px;
+height:450px;
+margin: 20px;
+}
+div.general>div.video>a.learn{
+    padding: 18px 100px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 18px;
+}
+div.my-learning{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin:auto;
+align-items: center;
+padding: 50px;
+}
+div.my-learning>a.sign-up{
+    padding: 15px 80px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+div.my-learning>h1{
+    font-size: 60px;
+    font-weight: 650;
+}
+div.my-learning>p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 3px;
+}
+div.mylearning>p.check{
+    border: 1px solid red;
+
 }
