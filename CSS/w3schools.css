@@ -447,7 +447,7 @@ width:920px;
 height:450px;
 margin: 20px;
 }
-div.general>div.video>a.learn{
+a.learn{
     padding: 18px 100px;
     font-size: 20px;
     font-weight: 500;
@@ -476,7 +476,75 @@ div.my-learning>p{
     font-weight: 500;
     margin-top: 3px;
 }
-div.mylearning>p.check{
-    border: 1px solid red;
-
+div.pro>p.check, div.pro>p.unlock{
+    width:400px;
+    text-align: left;
+}
+div.pro>h1{
+    font-size: 55px;
+    font-weight: 650;
+}
+div.pro>p.check{
+    font-size: 19px;
+    font-weight: 600;
+    margin: 3px;
+}
+div.pro>p.check>a{
+    font-size: 19px;
+    font-weight: 600;
+    margin: 3px;
+}
+div.pro>p.unlock{
+    color: #FFC0C7;
+    font-size: 24px;
+    font-weight: 600;
+}
+div.pro>a{
+    padding: 14px 100px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 50px 70px 30px 0px;
+}
+div.lynx>h3, div.lynx{
+    padding: 60px 0;
+}
+div.lynx>h3, div.lynx>p{
+    font-family:'Freckle Face';
+}
+div.lynx>h3{
+    font-size: 50px;
+    font-weight: 390;
+    margin:0px;
+    padding: 5px 0;
+}
+div.lynx>p{
+    font-size: 30px;
+    font-weight: 400;
+}
+div.lynx>a{
+    text-decoration: none;
+    padding: 13px 65px;
+    margin: 40px;
+}
+div.Quiz{
+}
+div.Quiz>div.YG{g
+    display: flex;
+    margin: 20px;
+    width: 90%;
+    justify-content: center;
+}
+div.Quiz>div.YG>div{
+    border-radius: 6px;
+    width: 1000px;
+    line-height: 180px;
+    border: 1px solid blue;
+    margin:10px 50px;
+}
+div.Quiz>div.YG>div>a{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
