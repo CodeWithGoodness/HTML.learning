@@ -636,7 +636,38 @@ footer>div.icons>a>i:hover{
     cursor: pointer;
     border-radius: 3px;
 }
+div.section{
+    padding: 50px 30px 150px 30px;
+}
 div.section>h3{
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 700;
+}
+div.section>p.f1{
+    font-size: 18px;
+    font-weight: 600;
+}
+div.section>p.f2{
+    font-size: 15px;
+    font-weight: 630;
+}
+div.section>div.square{
+    width:52px;
+    height: 83px;
+    background-color: #282A35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 0 250px;
+}
+div.section>a{
+    color: white;
+    border-radius: 25px;
+    padding: 18px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282A35;
+    font-size: 18px;
+    font-weight: 600;
 }
