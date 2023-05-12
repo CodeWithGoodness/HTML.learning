@@ -6,6 +6,8 @@ The project contains the following:
 1. W3Schools_clone: This folder contains W3schools.html (The main HTML file that represents the cloned W3Schools homepage), W3schools.css (The CSS file that contains all the styles and layout information for the cloned homepage) and Video.mp4 (The video walkthrough of the cloned homepage).
 2. README.md: The readme file you are currently reading.
 
+## Video WalkThrough
+<img src='w3schools_gif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 ## How to Use
 To view the cloned W3Schools homepage, simply open the w3schools.html file in a web browser. Once you open the W3schools.html file in a web browser, you will see the cloned W3Schools homepage. The layout, design, and content are replicated to resemble the original homepage.However, please note that this is a static clone, and the interactive functionality, such as search and tutorials, are not implemented.Feel free to explore the code in the W3schools.html and W3schools.css files to see how the homepage is structured and styled using HTML and CSS.
 
