@@ -1,4 +1,4 @@
-﻿# W3Schools(clone) 
+﻿# W3schools-clone-
 This project is a clone of the W3Schools homepage, created solely using HTML and CSS. The purpose of this project is to learn and demonstrate HTML and CSS skills by replicating the design and layout of the original W3Schools homepage.
 
 ## Getting Started
